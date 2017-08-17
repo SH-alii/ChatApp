@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12BA0D98BECF6AECEB608702 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D08B97E8AFC6B01DB05EE49 /* Pods_ChatApp.framework */; };
 		450885BE1F45989400058850 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450885BB1F45969400058850 /* SWRevealViewController.m */; };
+		450885C01F459DA200058850 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450885BF1F459DA200058850 /* GradientView.swift */; };
 		45D7C98E1F456AEA00AD8E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7C98D1F456AEA00AD8E89 /* AppDelegate.swift */; };
 		45D7C9931F456AEA00AD8E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D7C9911F456AEA00AD8E89 /* Main.storyboard */; };
 		45D7C9951F456AEA00AD8E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D7C9941F456AEA00AD8E89 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		450885BA1F45969300058850 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		450885BB1F45969400058850 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		450885BC1F45969400058850 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		450885BF1F459DA200058850 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		45D7C98A1F456AEA00AD8E89 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D7C98D1F456AEA00AD8E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45D7C9921F456AEA00AD8E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		45D7C9A41F458ED700AD8E89 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				450885BF1F459DA200058850 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				450885BE1F45989400058850 /* SWRevealViewController.m in Sources */,
 				45D7C9A91F458F3000AD8E89 /* ChannelVC.swift in Sources */,
+				450885C01F459DA200058850 /* GradientView.swift in Sources */,
 				45D7C9A71F458F2000AD8E89 /* ChatVC.swift in Sources */,
 				45D7C98E1F456AEA00AD8E89 /* AppDelegate.swift in Sources */,
 			);
