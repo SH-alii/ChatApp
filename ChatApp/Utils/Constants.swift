@@ -12,3 +12,4 @@ import Foundation
 //Segue
 
 let TO_LOGIN_VC = "LoginVC"
+let TO_SIGNUP_VC = "SignupVC"
