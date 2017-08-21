@@ -28,7 +28,7 @@ class SignUpVC: UIViewController {
     }
     @IBAction func closeBtnPressed(_ sender: UIButton) {
         
-        dismiss(animated: true, completion: nil)
+        performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: nil)
     }
     
 
